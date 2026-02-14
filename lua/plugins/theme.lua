@@ -1,0 +1,1 @@
+/home/madiyor/.config/omarchy/current/theme/neovim.lua

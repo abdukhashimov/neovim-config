@@ -1,0 +1,66 @@
+LAST SEEN   TYPE     REASON             OBJECT                              MESSAGE
+42m         Normal   Scheduled          pod/fix-service-55765856d8-ngctl    Successfully assigned prod/fix-service-55765856d8-ngctl to cpu-optimized-saxs2
+40m         Normal   Scheduled          pod/fix-service-55765856d8-t5w65    Successfully assigned prod/fix-service-55765856d8-t5w65 to cpu-optimized-saxsp
+47m         Normal   Scheduled          pod/fix-service-55765856d8-tnpvf    Successfully assigned prod/fix-service-55765856d8-tnpvf to cpu-optimized-saxs2
+36m         Normal   Scheduled          pod/fix-service-55765856d8-qkv4w    Successfully assigned prod/fix-service-55765856d8-qkv4w to cpu-optimized-saxs2
+45m         Normal   Scheduled          pod/fix-service-55765856d8-r4cs6    Successfully assigned prod/fix-service-55765856d8-r4cs6 to cpu-optimized-saxsp
+47m         Normal   Killing            pod/fix-service-55765856d8-f8rxg    Stopping container vault-agent
+47m         Normal   Killing            pod/fix-service-55765856d8-f8rxg    Stopping container backend-container
+47m         Normal   SuccessfulCreate   replicaset/fix-service-55765856d8   Created pod: fix-service-55765856d8-tnpvf
+47m         Normal   Started            pod/fix-service-55765856d8-tnpvf    Started container vault-agent-init
+47m         Normal   Pulled             pod/fix-service-55765856d8-tnpvf    Container image "hashicorp/vault:1.20.4" already present on machine
+47m         Normal   Created            pod/fix-service-55765856d8-tnpvf    Created container: vault-agent-init
+47m         Normal   Started            pod/fix-service-55765856d8-tnpvf    Started container backend-container
+47m         Normal   Pulled             pod/fix-service-55765856d8-tnpvf    Container image "ghcr.io/hyssa-dev/fix_service:1a9070a" already present on machine
+47m         Normal   Created            pod/fix-service-55765856d8-tnpvf    Created container: backend-container
+47m         Normal   Pulled             pod/fix-service-55765856d8-tnpvf    Container image "hashicorp/vault:1.20.4" already present on machine
+47m         Normal   Created            pod/fix-service-55765856d8-tnpvf    Created container: vault-agent
+47m         Normal   Started            pod/fix-service-55765856d8-tnpvf    Started container vault-agent
+45m         Normal   Killing            pod/fix-service-55765856d8-tnpvf    Stopping container backend-container
+45m         Normal   Killing            pod/fix-service-55765856d8-tnpvf    Stopping container vault-agent
+45m         Normal   SuccessfulCreate   replicaset/fix-service-55765856d8   Created pod: fix-service-55765856d8-r4cs6
+45m         Normal   Started            pod/fix-service-55765856d8-r4cs6    Started container vault-agent-init
+45m         Normal   Created            pod/fix-service-55765856d8-r4cs6    Created container: vault-agent-init
+45m         Normal   Pulled             pod/fix-service-55765856d8-r4cs6    Container image "hashicorp/vault:1.20.4" already present on machine
+45m         Normal   Created            pod/fix-service-55765856d8-r4cs6    Created container: vault-agent
+45m         Normal   Pulled             pod/fix-service-55765856d8-r4cs6    Container image "ghcr.io/hyssa-dev/fix_service:1a9070a" already present on machine
+45m         Normal   Created            pod/fix-service-55765856d8-r4cs6    Created container: backend-container
+45m         Normal   Started            pod/fix-service-55765856d8-r4cs6    Started container backend-container
+45m         Normal   Pulled             pod/fix-service-55765856d8-r4cs6    Container image "hashicorp/vault:1.20.4" already present on machine
+45m         Normal   Started            pod/fix-service-55765856d8-r4cs6    Started container vault-agent
+42m         Normal   Killing            pod/fix-service-55765856d8-r4cs6    Stopping container vault-agent
+42m         Normal   SuccessfulCreate   replicaset/fix-service-55765856d8   Created pod: fix-service-55765856d8-ngctl
+42m         Normal   Killing            pod/fix-service-55765856d8-r4cs6    Stopping container backend-container
+42m         Normal   Pulled             pod/fix-service-55765856d8-ngctl    Container image "hashicorp/vault:1.20.4" already present on machine
+42m         Normal   Created            pod/fix-service-55765856d8-ngctl    Created container: vault-agent-init
+42m         Normal   Started            pod/fix-service-55765856d8-ngctl    Started container vault-agent-init
+42m         Normal   Created            pod/fix-service-55765856d8-ngctl    Created container: vault-agent
+42m         Normal   Pulled             pod/fix-service-55765856d8-ngctl    Container image "ghcr.io/hyssa-dev/fix_service:1a9070a" already present on machine
+42m         Normal   Created            pod/fix-service-55765856d8-ngctl    Created container: backend-container
+42m         Normal   Started            pod/fix-service-55765856d8-ngctl    Started container backend-container
+42m         Normal   Pulled             pod/fix-service-55765856d8-ngctl    Container image "hashicorp/vault:1.20.4" already present on machine
+42m         Normal   Started            pod/fix-service-55765856d8-ngctl    Started container vault-agent
+40m         Normal   Killing            pod/fix-service-55765856d8-ngctl    Stopping container backend-container
+40m         Normal   Pulled             pod/fix-service-55765856d8-t5w65    Container image "hashicorp/vault:1.20.4" already present on machine
+40m         Normal   Created            pod/fix-service-55765856d8-t5w65    Created container: vault-agent-init
+40m         Normal   Started            pod/fix-service-55765856d8-t5w65    Started container vault-agent-init
+40m         Normal   SuccessfulCreate   replicaset/fix-service-55765856d8   Created pod: fix-service-55765856d8-t5w65
+40m         Normal   Killing            pod/fix-service-55765856d8-ngctl    Stopping container vault-agent
+40m         Normal   Pulled             pod/fix-service-55765856d8-t5w65    Container image "hashicorp/vault:1.20.4" already present on machine
+40m         Normal   Pulled             pod/fix-service-55765856d8-t5w65    Container image "ghcr.io/hyssa-dev/fix_service:1a9070a" already present on machine
+40m         Normal   Started            pod/fix-service-55765856d8-t5w65    Started container vault-agent
+40m         Normal   Created            pod/fix-service-55765856d8-t5w65    Created container: vault-agent
+40m         Normal   Started            pod/fix-service-55765856d8-t5w65    Started container backend-container
+40m         Normal   Created            pod/fix-service-55765856d8-t5w65    Created container: backend-container
+36m         Normal   Pulled             pod/fix-service-55765856d8-qkv4w    Container image "hashicorp/vault:1.20.4" already present on machine
+36m         Normal   Killing            pod/fix-service-55765856d8-t5w65    Stopping container vault-agent
+36m         Normal   Killing            pod/fix-service-55765856d8-t5w65    Stopping container backend-container
+36m         Normal   SuccessfulCreate   replicaset/fix-service-55765856d8   Created pod: fix-service-55765856d8-qkv4w
+36m         Normal   Created            pod/fix-service-55765856d8-qkv4w    Created container: vault-agent-init
+36m         Normal   Started            pod/fix-service-55765856d8-qkv4w    Started container vault-agent-init
+36m         Normal   Pulled             pod/fix-service-55765856d8-qkv4w    Container image "ghcr.io/hyssa-dev/fix_service:1a9070a" already present on machine
+36m         Normal   Started            pod/fix-service-55765856d8-qkv4w    Started container backend-container
+36m         Normal   Pulled             pod/fix-service-55765856d8-qkv4w    Container image "hashicorp/vault:1.20.4" already present on machine
+36m         Normal   Created            pod/fix-service-55765856d8-qkv4w    Created container: vault-agent
+36m         Normal   Created            pod/fix-service-55765856d8-qkv4w    Created container: backend-container
+36m         Normal   Started            pod/fix-service-55765856d8-qkv4w    Started container vault-agent

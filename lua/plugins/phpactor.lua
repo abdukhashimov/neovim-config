@@ -1,0 +1,17 @@
+return {
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        phpactor = {
+          init_options = {
+            ["language_server.diagnostic_ignore_codes"] = {
+              "worse.docblock_missing_return_type",
+              "worse.docblock_missing_param"
+            },
+          },
+        },
+      },
+    },
+  },
+}

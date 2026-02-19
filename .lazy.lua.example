@@ -1,0 +1,23 @@
+-- Project-specific database connections
+-- This file is automatically loaded by LazyVim when you open this project
+-- Add `.lazy.lua` to your `.gitignore` to protect your secrets
+
+-- Example configuration:
+-- vim.g.dbs = {
+--   dev = "postgres://user:password@localhost:5432/mydb",
+--   staging = "mysql://user:password@localhost:3306/mydb",
+--   production = "postgres://user:password@prod-host:5432/mydb",
+-- }
+
+-- Or using list format:
+-- vim.g.dbs = {
+--   { name = "dev", url = "postgres://user:password@localhost:5432/mydb" },
+--   { name = "staging", url = "mysql://user:password@localhost:3306/mydb" },
+-- }
+
+-- Connection URL formats:
+-- PostgreSQL: postgres://user:password@host:port/database
+-- MySQL:      mysql://user:password@host:port/database
+-- SQLite:     sqlite:/path/to/database.db
+
+return {}

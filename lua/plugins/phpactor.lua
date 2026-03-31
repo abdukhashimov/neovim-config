@@ -7,7 +7,9 @@ return {
           init_options = {
             ["language_server.diagnostic_ignore_codes"] = {
               "worse.docblock_missing_return_type",
-              "worse.docblock_missing_param"
+              "worse.docblock_missing_param",
+              "worse.missing_member",
+              "worse.unresolved_name",
             },
           },
         },

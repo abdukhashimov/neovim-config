@@ -6,6 +6,7 @@ return {
       formatters_by_ft = {
         sql = { "sql_formatter" },
         php = { "pint" },
+        proto = { "clang_format" },
       },
     },
   },

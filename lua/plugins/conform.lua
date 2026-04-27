@@ -8,6 +8,11 @@ return {
         php = { "pint" },
         proto = { "clang_format" },
       },
+      formatters = {
+        sql_formatter = {
+          prepend_args = { "--language", "postgresql" },
+        },
+      },
     },
   },
 }

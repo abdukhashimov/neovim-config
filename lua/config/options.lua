@@ -6,7 +6,7 @@
 vim.api.nvim_create_autocmd("FileType", {
     pattern = "sql",
     callback = function()
-        vim.diagnostic.disable(0) -- disable for sqlc files
+        vim.diagnostic.enable(false, { bufnr = 0 }) -- disable for sqlc files
     end,
 })
 
